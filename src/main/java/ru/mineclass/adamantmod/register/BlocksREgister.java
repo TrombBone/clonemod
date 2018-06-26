@@ -34,7 +34,7 @@ public class BlocksREgister {
         ForgeRegistries.BLOCKS.registerAll(blocks);
         for (Block b: blocks) {
             ForgeRegistries.ITEMS.register(
-                    new ItemBlock(block).setRegistryName(b.getRegistryName())
+                    new ItemBlock(b).setRegistryName(b.getRegistryName())
             );
         }
     }

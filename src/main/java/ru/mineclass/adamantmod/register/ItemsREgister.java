@@ -6,15 +6,21 @@ import net.minecraft.item.Item;
 import net.minecraftforge.fml.common.registry.ForgeRegistries;
 import net.minecraftforge.fml.relauncher.Side;
 import net.minecraftforge.fml.relauncher.SideOnly;
+import ru.mineclass.adamantmod.item.ItemAdamantFood;
 import ru.mineclass.adamantmod.item.ItemAdamantiumOre;
-import ru.mineclass.adamantmod.item.ItemPickaxe;
+import ru.mineclass.adamantmod.item.ItemLavaPickaxe;
+import ru.mineclass.adamantmod.item.ItemSickle;
 
 public class ItemsREgister {
-    public static Item item = new ItemPickaxe();
+    public static Item item = new ItemLavaPickaxe();
     public static Item item2 = new ItemAdamantiumOre();
+    public static Item item3 = new ItemSickle();
+    public static Item item4 = new ItemAdamantFood();
     public static Item[] items = {
             item,
             item2,
+            item3,
+            item4
     };
 
     public static void register() {

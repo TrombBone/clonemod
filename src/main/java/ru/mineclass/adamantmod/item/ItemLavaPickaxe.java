@@ -1,16 +1,15 @@
 package ru.mineclass.adamantmod.item;
 
 import net.minecraft.creativetab.CreativeTabs;
-import net.minecraft.item.Item;
+import ru.mineclass.adamantmod.AdamantiumMod;
 
-public class ItemPickaxe extends Item {
+public class ItemLavaPickaxe extends net.minecraft.item.ItemPickaxe {
     public static final String NAME = "lavapickaxe";
-    public ItemPickaxe() {
+    public ItemLavaPickaxe() {
+        super(AdamantiumMod.ADAMANTIUM);
         setRegistryName(NAME);
         setUnlocalizedName(NAME);
-        setCreativeTab(CreativeTabs.TOOLS);
+        setCreativeTab(AdamantiumMod.tabTutorial);
         setHarvestLevel("pickaxe", 3);
-
-        //setDamage(ItemStack.EMPTY, 5);
     }
 }

@@ -1,4 +1,9 @@
 tile.adamantblock.name=Блок Адамантия
 tile.adamantoreblock.name=Адаманитовая руда
+
 item.lavapickaxe.name=Лавовая кирка
 item.adamantore.name=Слиток Адамантия
+item.sickle.name=Адаманитовый Серп
+item.adamantfood.name=Адаманитовый бургер
+
+itemGroup.12=Мод Адамантия

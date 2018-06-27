@@ -41,10 +41,22 @@ public class AdamantiumMod {
         proxy.postInIt(event);
     }
 
-    public static final Item.ToolMaterial ADAMANTIUM = EnumHelper.addToolMaterial("ADAMANTIUM", 3, 2123, 10, 7, 50);
+    public static final Item.ToolMaterial ADAMANTIUM = EnumHelper.addToolMaterial("ADAMANTIUM", 3, 2123, 10, 23, 50);
     public static final Material ADAM_MATERIAL = new MaterialAdam();
 
     public static CreativeTabs tabTutorial = new TutorialTab("12");
+
+    /*
+    public static void registerEntity(Class entityClass, String name, int primaryColor, int secondaryColor)
+    {
+        int entityID = EntityRegistry.findGlobalUniqueEntityId();
+        long seed = name.hashCode();
+
+        EntityRegistry.registerGlobalEntityID(entityClass, name, entityID);
+        EntityRegistry.registerModEntity(entityClass, name, entityID, instance, 64, 1, true);
+        EntityList.entityEggs.put(Integer.valueOf(entityID), new EntityList.EntityEggInfo(entityID,         primaryColor, secondaryColor));
+    }
+    */
 
 }
 

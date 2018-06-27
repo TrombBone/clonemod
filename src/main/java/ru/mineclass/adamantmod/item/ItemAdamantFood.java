@@ -21,6 +21,6 @@ public class ItemAdamantFood extends ItemFood {
     @Override
     protected void onFoodEaten(ItemStack stack, World worldIn, EntityPlayer player) {
         super.onFoodEaten(stack, worldIn, player);
-        player.addPotionEffect(new PotionEffect(Potion.getPotionById(19)));
+        player.addPotionEffect(new PotionEffect(Potion.getPotionById(19), 600));
     }
 }
